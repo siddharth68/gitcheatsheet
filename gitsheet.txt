@@ -25,6 +25,13 @@ GIT COMMANDS SHEAT
 23.pull requested is used to merge the branch with main when we don't have access to main
 24.git pull origin main(To pull the changes from main branch)
 25.During our first adding local repository to github we need to push it with master
+26.git pull upstream main(To pull the changes from upstream to our main branch)
+27.if we need to work on a project first we need to fork it in our account
+
+
+
+
+
 
 
 
