@@ -24,6 +24,8 @@ GIT COMMANDS SHEAT
 22. clear(To clear the terminal)
 23.pull requested is used to merge the branch with main when we don't have access to main
 24.git pull origin main(To pull the changes from main branch)
+25.During our first adding local repository to github we need to push it with master
+
 
 
 
