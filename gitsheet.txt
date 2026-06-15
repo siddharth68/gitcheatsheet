@@ -27,6 +27,9 @@ GIT COMMANDS SHEAT
 25.During our first adding local repository to github we need to push it with master
 26.git pull upstream main(To pull the changes from upstream to our main branch)
 27.if we need to work on a project first we need to fork it in our account
+28.git remote add upstreamurl(To connect the upstream project so that we can sync with that project)
+29.git restore --staged filename(To unstage the file if we done add . by mistake)
+
 
 
 
