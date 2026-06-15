@@ -1,0 +1,29 @@
+GIT COMMANDS SHEAT
+
+1.git(To show that git is properly installed in our computer)
+2.git config --global user.name "github name"(To configure our name in git)
+3.git config --global user.email "github email"(To configure our email in git)
+4.git clone url(To connect the github repository to local repository)
+5.cd foldername,/drivename (To move between file and drives)
+6.cd ..(To move to the previous location)
+7.git status(To check whether the file is tracked on untracked)
+8.git add filename(To add the file to the staging area)
+9.git add .(To add every untracked file to the staging area)
+10.git commit -m "any relevant message"(To push the changes in the local git repository)
+11.git push orign main/master(To push the changes from local git repository to github repository)
+12.git pull(To pull the changes from github repository to local git repository)
+13.git init(To initialize the empty git repository only pulls the contents in branch we are curently in)
+14.git remote add origin url(To connect our local git repository to github repository)
+15.git branch(To show which branch we are currently in)
+16.git branch -M main(To change the name of branch becuase some time main will be in the name of master)
+17.git branch -a(To display all the branch available)
+18.git checkout branchname(To move to the branch)
+19.git push origin branchname(To push the changes to the branch)
+20.git diff branch name(To show the difference between branches)
+21.git merge branch name(To merge the branch with main branch)
+22. clear(To clear the terminal)
+23.pull requested is used to merge the branch with main when we don't have access to main
+24.git pull origin main(To pull the changes from main branch)
+
+
+
