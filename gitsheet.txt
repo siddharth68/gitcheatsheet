@@ -1,30 +1,50 @@
-GIT COMMANDS SHEAT
-
-1.git(To show that git is properly installed in our computer)
+GIT AND GITHUB CHEAT SHEET
+1.git(To check whether the git is installed in our computer)
 2.git config --global user.name "github name"(To configure our name in git)
 3.git config --global user.email "github email"(To configure our email in git)
-4.git clone url(To connect the github repository to local repository)
-5.cd foldername,/drivename (To move between file and drives)
-6.cd ..(To move to the previous location)
-7.git status(To check whether the file is tracked on untracked)
-8.git add filename(To add the file to the staging area)
-9.git add .(To add every untracked file to the staging area)
-10.git commit -m "any relevant message"(To push the changes in the local git repository)
-11.git push orign main/master(To push the changes from local git repository to github repository)
-12.git pull(To pull the changes from github repository to local git repository)
-13.git init(To initialize the empty git repository only pulls the contents in branch we are curently in)
-14.git remote add origin url(To connect our local git repository to github repository)
-15.git branch(To show which branch we are currently in)
-16.git branch -M main(To change the name of branch becuase some time main will be in the name of master)
-17.git branch -a(To display all the branch available)
-18.git checkout branchname(To move to the branch)
-19.git push origin branchname(To push the changes to the branch)
-20.git diff branch name(To show the difference between branches)
-21.git merge branch name(To merge the branch with main branch)
-22. clear(To clear the terminal)
-23.pull requested is used to merge the branch with main when we don't have access to main
-24.git pull origin main(To pull the changes from main branch)
-25.During our first adding local repository to github we need to push it with master
+4.ls(To display the contents in the folder)
+5.mkdir foldername(To create a folder)
+6.cd foldername or /drivename(To go inside that particular location)
+7.git init(To initialize a empty git repository in our project folder)
+8.ls -a(To display all the hidden files)
+9.touch filename(To create a file)
+10.git status(To check whether the file is tracked or not)
+11.git add .(To get all the untracked files in the staging area)
+12.git add filename(To get particular files to the staging area)
+13.git commit -m"any relevant message(To save the file in the history)
+14.vi filename(To go inside the file to make any changes) insert to writing,esc to enter normal mode and :x to exit the file
+15.cat filename(To display the contents in the file)
+16.git restore --staged filename(To unstage a file if add filname is given by mistake)
+17.git log(To see the history of the commits)
+18.rm -rf filename(To delete a file)
+19.git reset commitid(To delete the commit history it only deletes only the commits above the commit id above it)
+20.git stash(To get the files in the backstage area before commit so we can get it back whenever necessary)
+21.git stash pop(To get the backstages file to the staged area)
+22.git stash clear(To delete the files in the backstage area)
+23.git remote add origin url(To connect our local repository to github repository)
+24.git remote -v(To show all the url that are attached to our project folder)
+25.git push origin master/main(To push our changes from local to github repository)
+26.git branch(To display all the branch)
+27.git branch branchname(To create a branch)
+28.git checkout branch(To move to that branch now all the commits will be in the branch)
+29.git merge branchname(To merge the main branch with new branch during merging we should be in the main branch)
+30.to work on the other project first we need to fork the project in our own account to make changes to those projects
+31.git clone url(To connect git repository to our local repository)
+32.git remote add upstream url(To connect the upstream git repository to our local repository)
+33.if we committed the file by mistake we can use git reset commit to make the commit unstage so we can use stash it or do anything we want
+34.git push origin branchname -f(if git repository contains a commit that our local repository does not contain we need to force push this becuase commits are interconnected)
+35.git push origin branchname(To push the changes to our branch then we can able to create a pull request to the upstream main branch)
+36.git fetch --all --prune(To fetch the changes from all the branch in upstream to main)
+37.git reset -hard upstream/main(make our main branch exactly as same as upstream main branch)
+38.the command 36 and 37 sometimes will be used one after another
+39. we can also use fetch upstream button on github to maintain our main with upstream main
+40.git pull upstream main(the 36 and 37 commands dont need it this single command will pull the changes from upstream main to our main)
+41.git rebase -i commitid(all the commits above it we can able to do pick or squash  pssp
+the two squashed commits will the squashed into the first pick) it tells us to create a new single commit message
+42.git reset --hard commidid(it will delete both commit history and the file)
+
+
+
 
 
 
